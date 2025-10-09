@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  text-align: center;
+  background: white;
+}
+
+.background img {
+  width: 100%;
+  display: block;
+}
+
+.content {
+  padding: 40px 20px;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 900;
+  color: #e75b4b;
+  text-shadow: 1px 1px 3px #00000050;
+  margin-bottom: 15px;
+}
+
+.title span {
+  display: block;
+}
+
+h2 {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+h2 span {
+  font-weight: 700;
+}
+
+p {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  background: red;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 12px 28px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #c71515;
+}
+
+/* media */
+/* mobile */
+@media screen and (max-width: 629px) {
+  .title {
+    font-size: 48px;
+    letter-spacing: 3px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 10px 22px;
+  }
+
+  .content {
+    background: #fff;
+    border-radius: 25px 25px 0 0;
+    padding: 30px 15px;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 630px) and (max-width: 1014px) {
+  .title {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .btn {
+    font-size: 15px;
+    padding: 11px 25px;
+  }
+
+  .content {
+    background: #fff;
+    margin-top: auto;
+    border-radius: 30px 30px 0 0;
+    padding: 40px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1015px) and (max-width: 1920px) {
+  body {
+    justify-content: center;
+    background: none;
+  }
+
+  .content {
+    margin-top: 100px;
+  }
+
+  .background img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .content h2,
+  .content p {
+    color: white;
+  }
+}s
+
+/* large desktop */
+@media screen and (min-width: 1921px) {
+  .title {
+    font-size: 90px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 18px;
+    padding: 14px 32px;
+  }
+}
