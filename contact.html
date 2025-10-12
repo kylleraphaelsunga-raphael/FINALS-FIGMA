@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 18, 2025
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webbing Pampanga | Contact Us</title>
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+
+  <a href="Places.html" class="back-arrow"><</a>
+
+  <header class="contact-header">
+    <img src="images/logo.png" alt="Logo">
+    <h1 class="title">CONTACT<br><span>US</span></h1>
+  </header>
+
+  <section class="message">
+    <p>We’d like to hear from you! Send us a message or find us below.</p>
+  </section>
+
+  <main class="contact-container">
+    <div class="contact-form">
+      <h2>Contact us in this form</h2>
+      <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+        <label>Did this website help you?</label>
+        <div class="radio-group">
+          <div class="radio-option">
+            <input type="radio" name="helpful" id="yes" value="yes">
+            <label for="yes">Yes</label>
+          </div>
+          <div class="radio-option">
+            <input type="radio" name="helpful" id="no" value="no">
+            <label for="no">No</label>
+          </div>
+        </div>
+
+        <label for="rating">How would you rate this site?</label>
+        <select id="rating" name="rating">
+          <option value="" disabled selected>Select your rating</option>
+          <option value="5">Excellent</option>
+          <option value="4">Good</option>
+          <option value="3">Average</option>
+          <option value="2">Poor</option>
+          <option value="1">Very Poor</option>
+        </select>
+
+        <label for="comments">Comments / Suggestions:</label>
+        <textarea id="comments" name="comments" rows="4" placeholder="Write your comments or suggestions here..."></textarea>
+
+        <button type="submit" class="submit-btn">SUBMIT</button>
+      </form>
+    </div>
+
+    <div class="social-media">
+      <h2>Social Media</h2>
+      <p><strong>Facebook Page:</strong> <em>WebbingPampanga_official</em></p>
+      <p><strong>Instagram:</strong> <em>@WebbingPampanga_official</em></p>
+      <p><strong>Email Address:</strong> <em>WebbingPampanga@gmail.com</em></p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
+      <div class="footer-links">
+        <a href="contact.html">CONTACT US</a>
+        <a href="about.html">ABOUT US</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
