@@ -1,7 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!--a<!DOCTYPE html>
+<html lang="en">
+<head>
   <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 18, 2025
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webbing Pampanga | Contact Us</title>
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+
+  <!-- Back Button -->
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
+  <header class="contact-header">
+    <img src="images/logo.png" alt="Logo">
+    <h1 class="title">CONTACT<br><span>US</span></h1>
+  </header>
+
+  <section class="message">
+    <p>We’d like to hear from you! Send us a message or find us below.</p>
+  </section>
+
+  <main class="contact-container">
+    <div class="contact-form">
+      <h2>Contact us in this form</h2>
+      <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+        <label>Did this website help you?</label>
+        <div class="radio-group">
+          <div class="radio-option">
+            <input type="radio" name="helpful" id="yes" value="yes">
+            <label for="yes">Yes</label>
+          </div>
+          <div class="radio-option">
+            <input type="radio" name="helpful" id="no" value="no">
+            <label for="no">No</label>
+          </div>
+        </div>
+
+        <label for="rating">How would you rate this site?</label>
+        <select id="rating" name="rating">
+          <option value="" disabled selected>Select your rating</option>
+          <option value="5">Excellent</option>
+          <option value="4">Good</option>
+          <option value="3">Average</option>
+          <option value="2">Poor</option>
+          <option value="1">Very Poor</option>
+        </select>
+
+        <label for="comments">Comments / Suggestions:</label>
+        <textarea id="comments" name="comments" rows="4" placeholder="Write your comments or suggestions here..."></textarea>
+
+        <button type="submit" class="submit-btn">SUBMIT</button>
+      </form>
+    </div>
+
+    <div class="social-media">
+      <h2>Social Media</h2>
+      <p><strong>Facebook Page:</strong> <em>WebbingPampanga_official</em></p>
+      <p><strong>Instagram:</strong> <em>@WebbingPampanga_official</em></p>
+      <p><strong>Email Address:</strong> <em>WebbingPampanga@gmail.com</em></p>
+    </div>
+
+    <div class="video-section">
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/loP7TK-e0yU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+
+      <p class="video-copyright">
+        © 2025 Webbing Pampanga. All Rights Reserved.
+      </p>
+    </div>
+
+  </main>
+
+ <footer>
+    <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
+    </div>
+
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <!-- Side Navigation -->
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <!-- Contact -->
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <!-- About -->
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="about.html">ABOUT US</a>
+      </div>
+
+      <!-- Footer Note -->
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+
+  </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
+
+</body>
+</html>
+
     Name: Sunga, Kylle Raphael Y.
     Section: WD202
     Activity: Finals Figma Project
@@ -87,5 +235,6 @@
 
 </body>
 </html>
+
 
 
