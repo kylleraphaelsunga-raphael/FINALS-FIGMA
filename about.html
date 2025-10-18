@@ -14,10 +14,10 @@
 </head>
 <body>
 
-  <a href="Places.html" class="back-arrow"><</a>
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
 
-  <header class="contact-header">
-    <img src="logo.png" alt="Logo">
+  <header class="contact-header">s
+    <img src="images/logo.png" alt="Logo">
     <h1 class="title">ABOUT<br><span>US</span></h1>
   </header>
 
@@ -64,17 +64,58 @@
     </div>
   </main>
 
-  <footer>
+ <footer>
     <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
       <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
-      <div class="footer-links">
+    </div>
+    
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <!-- Side Navigation -->
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <!-- Contact -->
+      <div class="nav-item">
+        <span class="nav-icon"></span>
         <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <!-- About -->
+      <div class="nav-item">
+        <span class="nav-icon"></span>
         <a href="about.html">ABOUT US</a>
       </div>
-    </div>
+
+      <!-- Footer Note -->
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+
   </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
 
 </body>
 </html>
-
-
