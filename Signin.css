@@ -1,3 +1,4 @@
+/* Enhanced aesthetic CSS while keeping layout and color palette */
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +7,8 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #fcd7d4;
-  color: #3e2f2f;      
+  background: linear-gradient(135deg, #fcd7d4, #fce5e3);
+  color: #3e2f2f;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,14 +19,16 @@ body {
   text-align: center;
   width: 100%;
   max-width: 600px;
+  padding: 20px;
 }
 
 .title {
   font-size: 70px;
   font-weight: 900;
   color: #e75b4b;
-  text-shadow: 1px 1px 2px #2e2e2e33;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  letter-spacing: 2px;
 }
 
 .title span {
@@ -33,25 +36,34 @@ body {
 }
 
 .form-box {
-  background: transparent;
-  padding: 20px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s ease;
+}
+
+.form-box:hover {
+  transform: translateY(-3px);
 }
 
 .form-box h2 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   color: #000;
+  margin-bottom: 5px;
 }
 
 .form-box p {
-  font-size: 12px;
+  font-size: 13px;
   margin-bottom: 20px;
 }
 
 .form-box a {
-  color: white;
+  color: black;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 form {
@@ -67,10 +79,18 @@ form {
 
 input {
   padding: 12px;
-  border: none;
-  border-radius: 5px;
+  border: 1px solid #f0b4ad;
+  border-radius: 8px;
   width: 100%;
   font-size: 14px;
+  background: #fff;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #e75b4b;
+  box-shadow: 0 0 5px rgba(231, 91, 75, 0.4);
 }
 
 .password-field {
@@ -79,25 +99,31 @@ input {
 
 .eye-icon {
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 16px;
 }
 
 .btn {
   display: inline-block;
   text-align: center;
-  background: red;
-  color: black;
+  background: #e75b4b;
+  color: #fff;
   padding: 12px;
   font-weight: 700;
-  border-radius: 5px;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .btn:hover {
-  background: #c71515;
+  background: #c74435;
+  transform: translateY(-2px);
 }
 
-/* 📱 Mobile (below 630px) */
+/* media */
+/* mobile */
 @media screen and (max-width: 629px) {
   body {
     height: auto;
@@ -110,7 +136,7 @@ input {
   }
 
   .form-box {
-    padding: 10px;
+    padding: 20px;
   }
 
   .name-fields {
@@ -129,7 +155,7 @@ input {
   }
 }
 
-/* 💻 Tablet (630px – 1014px) */
+/* tablet */
 @media screen and (min-width: 630px) and (max-width: 1014px) {
   .title {
     font-size: 60px;
@@ -150,7 +176,7 @@ input {
   }
 }
 
-/* 🖥️ Desktop (1015px – 1920px) */
+/* desktop */
 @media screen and (min-width: 1015px) and (max-width: 1920px) {
   .title {
     font-size: 70px;
@@ -170,7 +196,7 @@ input {
   }
 }
 
-/* 🖥️💨 Larger Desktop (1921px and above) */
+/* large desktop */
 @media screen and (min-width: 1921px) {
   .title {
     font-size: 90px;
@@ -190,4 +216,3 @@ input {
     padding: 14px 24px;
   }
 }
-
