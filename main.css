@@ -319,7 +319,10 @@ footer {
 
 /* Tablet */
 @media screen and (min-width: 630px) and (max-width: 1014px) {
-  .header-image img { height: 250px; max-height: 280px; }
+  .header-image img { 
+    height: 250px; 
+    max-height: 280px; 
+  }
   .content { 
     padding: 30px 40px; 
   }
