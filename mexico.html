@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 20, 2025
+  -->
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/facivon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webbing Pampanga | Discover Mexico</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
+  <header class="header-image">
+    <img src="images/img_mexico.jpg" alt="Mexico Header">
+  </header>
+
+  <main class="content">
+    <h1>Municipality of Mexico</h1>
+    <h3>Home of Historical Heritage and Spanish-Era Architecture</h3>
+
+    <figure class="header-video">
+      <iframe
+        src="https://www.youtube.com/embed/WWSnh8sv32s"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <figcaption>
+        This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
+      </figcaption>
+    </figure>
+
+    <section>
+      <h2>HISTORY</h2>
+      <p>
+        Mexico, Pampanga, was founded in 1581 as a river trading port and was originally named "Novo México" after Mexico City. The town was established by Spanish colonizers who arrived in small boats and landed in a bushy area now known as San Jose Matulid. Over time, the town became a significant center for trade and commerce due to its strategic location along the river.
+      </p>
+      <p>
+        In 1660, Don Francisco Maniago, a native leader from Mexico, led the Pampanga Revolt against the Spanish colonial government. This revolt was a response to the imposition of forced labor and rice tributes by the Spanish authorities. Although the revolt was suppressed, it highlighted the town's active role in resisting colonial rule.
+      </p>
+      <p>
+        The town's significance continued into the 19th century when it served as the capital of Pampanga. However, after the Pampanga Revolt, the Spanish authorities moved the provincial capital to Bacolor. Despite this, Mexico retained its economic importance, particularly among Chinese traders and their mestizo descendants, who formed and maintained business and social alliances with each other.
+      </p>
+    </section>
+
+    <section>
+      <h2>STORY BEHIND THE NAME</h2>
+      <p>
+        The name "Mexico" is believed to have originated from the Spanish colonizers who named the town after Mexico City. Another theory suggests that the original pre-Hispanic name of the village was "Masicu" or "Maca-sicu," which the Spaniards spelled as "México." This name could have referred to an abundance of chico trees or the elbow-shaped bends of the nearby Abacan and Pampanga Rivers.
+      </p>
+    </section>
+
+    <section>
+      <h2>TRADEMARK OF MEXICO</h2>
+      <p>
+        Mexico is renowned for its rich cultural heritage and historical landmarks. The San Jose Matulid Chapel, believed to be the oldest church in Pampanga, stands as a testament to the town's deep-rooted faith. Additionally, the Lazatin-Henson-Katigbak Mansion, one of the largest Spanish-era colonial architecture composites in the region, showcases the town's architectural heritage.
+      </p>
+    </section>
+
+    <section>
+      <h2>INTERESTING FACTS</h2>
+      <ul>
+        <li>Mexico was founded in 1581 and was originally named "Novo México" after Mexico City.</li>
+        <li>Don Francisco Maniago led the Pampanga Revolt in 1660 against Spanish colonial rule.</li>
+        <li>The town served as the capital of Pampanga before the capital was moved to Bacolor.</li>
+        <li>Mexico is home to the San Jose Matulid Chapel, believed to be the oldest church in Pampanga.</li>
+        <li>The Lazatin-Henson-Katigbak Mansion is one of the largest Spanish-era colonial architecture composites in the region.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
+    </div>
+    
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="about.html">ABOUT US</a>
+      </div>
+
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+  </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
+</body>
+</html>

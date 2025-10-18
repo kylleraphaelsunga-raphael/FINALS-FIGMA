@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 20, 2025
+  -->
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/facivon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webbing Pampanga | Discover Apalit</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
+  <header class="header-image">
+    <img src="images/img_apalit.png" alt="Municipality of Apalit Header">
+  </header>
+
+  <main class="content">
+    <h1>Municipality of Apalit</h1>
+    <h3>Home of the Apung Iru Fluvial Festival</h3>
+
+    <figure class="header-video">
+    <iframe
+        src="https://www.youtube.com/embed/P1sCElEx1_c"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+    <figcaption>
+        This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
+    </figcaption>
+    </figure>
+
+    <section>
+      <h2>HISTORY</h2>
+      <p>
+        Apalit is one of the oldest towns in Pampanga, established during the Spanish colonial era. Its origins trace back to the late 1500s when it started as a small settlement near the Pampanga River, which played a vital role in the town’s early trade and livelihood. The name "Apalit" is believed to have come from a local tree called “Apalit” that once thrived in the area.
+      </p>
+      <p>
+        During the Spanish period, Apalit became known for its strong Christian faith and devotion, leading to the construction of churches and religious structures that became central to community life. The town flourished as a trading hub due to its strategic river location, connecting it to nearby provinces via waterways. Over the years, Apalit developed its identity through traditions such as the Libad Festival, which celebrates its deep devotion to Saint Peter. Today, Apalit stands as a thriving municipality known for its culture, faith, and commerce.
+      </p>
+    </section>
+
+    <section>
+      <h2>STORY BEHIND THE NAME</h2>
+      <p>The name Apalit comes from the Apalit tree, a once-abundant species in the area. Locals used its wood for various purposes, and its presence became so significant that the town was named after it, symbolizing natural abundance and resilience.</p>
+    </section>
+
+    <section>
+      <h2>TRADEMARK OF APALIT</h2>
+      <p>Apalit is widely known for the **Libad Festival**, a fluvial parade held annually in honor of Saint Peter. Residents and visitors gather along the Pampanga River to witness the grand boat procession, showcasing the town’s rich faith and tradition. The municipality is also recognized for its handcrafted goods, local trade markets, and strategic river-based commerce.</p>
+    </section>
+
+    <section>
+      <h2>INTERESTING FACTS</h2>
+      <ul>
+        <li>Apalit is one of the oldest river-connected trading communities in Pampanga.</li>
+        <li>The Libad Festival is a major cultural and religious attraction celebrated every June.</li>
+        <li>The town is known for its strong Catholic devotion, particularly to Saint Peter.</li>
+        <li>Apalit’s location along the Pampanga River made it a historic trade route during the Spanish era.</li>
+        <li>It remains a key commercial area in the fourth district of Pampanga.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
+    </div>
+
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="about.html">ABOUT US</a>
+      </div>
+
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+  </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
+</body>
+</html>

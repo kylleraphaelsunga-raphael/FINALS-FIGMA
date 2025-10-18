@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 20, 2025
+  -->
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/facivon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webbing Pampanga | Discover Candaba</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
+  <header class="header-image">
+    <img src="images/img_candaba.jpg" alt="Municipality of Candaba Header">
+  </header>
+
+  <main class="content">
+    <h1>Municipality of Candaba</h1>
+    <h3>Wetland Heart of Central Luzon</h3>
+
+    <figure class="header-video">
+      <iframe
+        src="https://www.youtube.com/embed/vCmiSBEqH5A"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <figcaption>
+        This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
+      </figcaption>
+    </figure>
+
+    <section>
+      <h2>HISTORY</h2>
+      <p>
+        Candaba lies on one of the most remarkable landscapes in Pampanga: vast flood plains and the celebrated Candaba Swamp, which once formed part of a chain of inland lakes in Central Luzon. Early settlers made their community along the Pampanga River, taking advantage of rich soils and waterways. Under Spanish rule, the town matured with agricultural and fishery foundations, contributing to local trade. Over the decades, Candaba has sustained both floodwaters and farmland, adapting its environment into a functioning tapestry of nature and livelihood.
+      </p>
+      <p>
+        Throughout the 20th century and into modern times, Candaba has become known for its dual identity: as a sanctuary for migratory birds and as a productive agricultural municipality. The seasonally flooded swamps, once obstacles, turned into fertile fields and wetlands that support rice, tilapia, duck-egg farms and honeyed watermelons. Sitting at the lowest point in the Central Luzon plain, Candaba embraces its natural rhythms and continues to thrive despite climate challenges and changing land uses.
+      </p>
+    </section>
+
+    <section>
+      <h2>STORY BEHIND THE NAME</h2>
+      <p>
+        The name “Candaba” traces back to indigenous references of waterways and swamp land in this region. Originally known as Candawe, the settlement gradually became Candaba as the Kapampangan language and Spanish-era records merged. The name reflects the interplay of land and water that defines the municipality’s character: half swamp, half farm, always adapting.
+      </p>
+    </section>
+
+    <section>
+      <h2>TRADEMARK OF CANDABA</h2>
+    <p>
+      Candaba is best known for its expansive **Candaba Swamp**, a seasonal wetland that draws thousands of migratory birds and serves as a vital ecological buffer for floodwaters. The region is also celebrated for its production of watermelon and duck eggs, and local traditions tied to harvest and waterfowl farming. These unique features give Candaba a distinct identity in Pampanga’s landscape of towns.
+    </p>
+    </section>
+
+    <section>
+      <h2>INTERESTING FACTS</h2>
+      <ul>
+        <li>Candaba covers approximately 176.4 square kilometers and is divided into 33 barangays.</li>
+        <li>The Candaba Swamp spans tens of thousands of hectares and becomes a key habitat for migratory birds every dry season.</li>
+        <li>Each year the swamp transforms from watery plains to fertile farmland, supporting rice, melon and fish culture.</li>
+        <li>The municipality is considered the lowest point in Central Luzon, making its water-management and ecology unique.</li>
+        <li>Candaba’s agriculture and eco-tourism blend show how a municipality can honor nature while powering livelihoods for its residents.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
+    </div>
+
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="about.html">ABOUT US</a>
+      </div>
+
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+  </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
+</body>
+</html>

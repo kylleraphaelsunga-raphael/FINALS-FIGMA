@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 20, 2025
+  -->
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/facivon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webbing Pampanga | Discover Floridablance</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
+  <header class="header-image">
+    <img src="images/img_floridablanca.webp" alt="Municipality of Floridablanca Header">
+  </header>
+
+  <main class="content">
+    <h1>Municipality of Floridablanca</h1>
+    <h3>Gateway to Pampanga’s Southern Towns</h3>
+
+    <figure class="header-video">
+      <iframe
+        src="https://www.youtube.com/embed/DFjMNIR_NeA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <figcaption>
+        This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
+      </figcaption>
+    </figure>
+
+    <section>
+      <h2>HISTORY</h2>
+      <p>
+        Floridablanca was established during the Spanish colonial era as a waystation between central Pampanga and coastal towns. It originally developed as a barrio under nearby municipalities until it was formally organized into a town. Through the 1800s and into the American era, Floridablanca evolved through agriculture, local trade, and growing faith-based community life. The town has always maintained its agrarian character even as it gradually modernized with better roads, local markets, and civic infrastructure.
+      </p>
+      <p>
+        Over the 20th century, Floridablanca gained identity through its fertile lands, which supported rice, sugarcane, and vegetable farming. Its location near rivers and secondary roads allowed it to engage in trade with neighboring municipalities. The town also sustained community resilience by preserving culture and local governance traditions while embracing new development initiatives in education, health, and commerce.
+      </p>
+    </section>
+
+    <section>
+      <h2>STORY BEHIND THE NAME</h2>
+      <p>
+        The name “Floridablanca” was given during the Spanish era and means “white flower” in Spanish. It symbolizes purity, growth, and an image of fresh beginnings. As the town grew and its landscape bloomed with fields and crops, the name came to reflect both natural beauty and the promise of peaceful rural life.
+      </p>
+    </section>
+
+    <section>
+      <h2>TRADEMARK OF FLORIDABLANCA</h2>
+    <p>
+      Floridablanca is known for its lush farmlands, weaving cottage industries, and rich local produce. The town hosts festivals celebrating harvests and traditional crafts, showcasing its agriculture-based identity. It is also recognized for small-scale industries producing native products and local delicacies that reflect the traditions of the community.
+    </p>
+    </section>
+
+    <section>
+      <h2>INTERESTING FACTS</h2>
+      <ul>
+        <li>Floridablanca is predominantly agricultural, with rice and sugarcane as chief crops.</li>
+        <li>The town is connected to nearby urban centers by secondary roads, facilitating local trade.</li>
+        <li>Cottage industries such as weaving, handicrafts, and food production are prevalent in barangays.</li>
+        <li>Local festivals highlight both agriculture and cultural identity unique to Floridablanca.</li>
+        <li>The municipality balances its rural character with steady improvements in public services.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
+    </div>
+
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="about.html">ABOUT US</a>
+      </div>
+
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+  </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
+</body>
+</html>

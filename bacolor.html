@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 20, 2025
+  -->
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/facivon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webbing Pampanga | Discover Bacolor</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
+  <header class="header-image">
+    <img src="images/img_bacolor.png" alt="Municipality of Bacolor Header">
+  </header>
+
+  <main class="content">
+    <h1>Municipality of Bacolor</h1>
+    <h3>Historic Villa of Pampanga</h3>
+
+    <figure class="header-video">
+      <iframe
+        src="https://www.youtube.com/embed/aOSxFwqh6RI"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <figcaption>
+        This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
+      </figcaption>
+    </figure>
+
+    <section>
+      <h2>HISTORY</h2>
+      <p>
+        Bacolor, originally called “Baculud,” stands as one of the oldest and most historic towns in Pampanga, tracing its roots to early Kapampangan settlements during the 1500s. It eventually became a center of governance and faith, developing into a flourishing community under Spanish colonial administration. In 1698, Bacolor rose to prominence when it was officially declared the provincial capital of Pampanga, solidifying its status as a political and cultural stronghold in Central Luzon. Its strategic location made it a hub for trade, governance, and religious institutions that shaped the province for generations.
+      </p>
+      <p>
+        During the British occupation of Manila in 1762, Bacolor momentarily became the seat of the Spanish colonial government in exile, led by Governor-General Simón de Anda. This period marked Bacolor as a symbol of Filipino resistance and colonial authority. The town continued to thrive until the 1991 eruption of Mount Pinatubo brought massive lahar flows that buried much of the municipality. Despite this devastation, the people of Bacolor rebuilt their communities with resilience and faith, holding on to their heritage while embracing recovery and progress.
+      </p>
+    </section>
+
+    <section>
+      <h2>STORY BEHIND THE NAME</h2>
+      <p>The name “Bacolor” is derived from the word “Baculud,” which means “high ground” or “elevated land,” referring to the natural terrain where the town was first established. Early settlers chose this elevated area for protection against flooding and natural threats. Over time, the name evolved into “Bacolor” during the Spanish period, reflecting both its linguistic adaptation and its identity as a town shaped by history and survival.</p>
+    </section>
+
+    <section>
+      <h2>TRADEMARK OF BACOLOR</h2>
+      <p>Bacolor is widely known for the San Guillermo Parish Church, famously referred to as the “Sunken Church” after it was half-buried by lahar from Mount Pinatubo. Only the upper portion of the church remains visible today, and it has since become a national symbol of hope and endurance. Bacolor also bears the distinguished title “Villa de Bacólor,” granted during the Spanish colonial era, making it one of only a few towns in the Philippines to receive such recognition. This title reflects its historical prestige and cultural influence.</p>
+    </section>
+
+    <section>
+      <h2>INTERESTING FACTS</h2>
+      <ul>
+        <li>Bacolor once served as the provincial capital of Pampanga for more than two centuries.</li>
+        <li>It became the temporary seat of the Spanish government during the British occupation of Manila.</li>
+        <li>The iconic San Guillermo Parish Church stands half-buried yet remains active as a place of worship.</li>
+        <li>Bacolor is known for its strong cultural pride, hosting various religious and heritage events despite past calamities.</li>
+        <li>The town is celebrated for its resilience, preserving its identity and traditions even after the lahar disaster.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
+    </div>
+
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="about.html">ABOUT US</a>
+      </div>
+
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+  </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
+</body>
+</html>

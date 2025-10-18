@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 20, 2025
+  -->
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/facivon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webbing Pampanga | Discover Santa Ana</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
+  <header class="header-image">
+    <img src="images/img_santaana.jpg" alt="Santa Ana Header">
+  </header>
+
+  <main class="content">
+    <h1>Municipality of Santa Ana</h1>
+    <h3>Heart of Pampanga's Agriculture</h3>
+
+    <figure class="header-video">
+      <iframe
+        src="https://www.youtube.com/embed/GLpwlLw-CAg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <figcaption>
+        This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
+      </figcaption>
+    </figure>
+
+    <section>
+      <h2>HISTORY</h2>
+      <p>
+        Santa Ana, Pampanga, is a first-class municipality with a rich history rooted in faith, agriculture, and resilience. Originally part of Arayat, the area was known as “Bale Pinpin,” meaning “laid aside,” reflecting its early status as a sparsely populated settlement. In 1598, it became a visita (a small mission town) of Arayat, where early settlers cultivated the fertile lands and established the foundations of a thriving agricultural community. Over time, the settlement grew in population and significance, leading to the construction of a parish church dedicated to Saint Anne, the mother of the Virgin Mary, in 1753.
+      </p>
+      <p>
+        By the late 18th century, Santa Ana had become an important agricultural hub, supplying rice, sugarcane, and other crops to neighboring towns. During the Spanish colonial period, the town endured natural calamities and uprisings but maintained its local governance and religious practices. When the Philippines transitioned to American rule, Santa Ana benefited from infrastructure improvements, including roads and public schools, which further integrated the town into the province of Pampanga.
+      </p>
+      <p>
+        Santa Ana officially became a municipality on January 1, 1913, marking its independence and enabling it to develop a stronger local government. The town’s growth continued throughout the 20th century, even as it faced challenges such as typhoons and flooding from nearby rivers. Despite these obstacles, the community preserved its traditions and maintained strong devotion to Saint Anne, celebrating her feast day with annual religious processions, music, and cultural activities. Today, Santa Ana balances its agricultural roots with modern development, including small businesses, schools, and infrastructure projects, while preserving its historical landmarks like the centuries-old Santa Ana Church and ancestral houses that stand as witnesses to its enduring legacy.
+      </p>
+    </section>
+
+    <section>
+      <h2>STORY BEHIND THE NAME</h2>
+      <p>
+        The town was named after Saint Anne, the mother of the Virgin Mary, reflecting the strong Catholic influence in the area. The name symbolizes the town's devotion, hope, and resilience, values that the residents have upheld through generations. Originally known as "Bale Pinpin," the settlement adopted the new name to honor the saint and establish a distinct identity for the growing community.
+      </p>
+    </section>
+
+    <section>
+      <h2>TRADEMARK OF SANTA ANA</h2>
+      <p>
+        Santa Ana is widely recognized for its agricultural productivity, fertile lands, and strong community spirit. The town is known for producing rice, sugarcane, and vegetables, making it a key contributor to Pampanga's food supply. Additionally, Santa Ana celebrates vibrant festivals and religious events, including the feast of Saint Anne every July 26, where locals honor their patron saint through processions, music, and cultural activities. The town also preserves historical landmarks, such as the centuries-old Santa Ana Church, which draws visitors interested in heritage and spirituality.
+      </p>
+    </section>
+
+    <section>
+      <h2>INTERESTING FACTS</h2>
+      <ul>
+        <li>Santa Ana was originally part of Arayat before becoming an independent municipality on January 1, 1913.</li>
+        <li>The town is named after Saint Anne, the mother of the Virgin Mary, who remains its patron saint.</li>
+        <li>Santa Ana Church, constructed in 1753, is a significant heritage site reflecting Spanish-era architecture and devotion.</li>
+        <li>The municipality is a major agricultural hub in Pampanga, producing rice, sugarcane, and vegetables for local and nearby markets.</li>
+        <li>Residents celebrate the feast of Saint Anne every July 26 with religious processions, music, and cultural performances.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
+    </div>
+    
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="about.html">ABOUT US</a>
+      </div>
+
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+  </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
+</body>
+</html>

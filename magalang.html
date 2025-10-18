@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 20, 2025
+  -->
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/facivon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webbing Pampanga | Discover Magalang</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
+  <header class="header-image">
+    <img src="images/img_magalang.png" alt="Magalang Header">
+  </header>
+
+  <main class="content">
+    <h1>Municipality of Magalang</h1>
+    <h3>Home of Sweet Delicacies and Scenic Highlands</h3>
+
+    <figure class="header-video">
+      <iframe
+        src="https://www.youtube.com/embed/chaujmy4g-w"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <figcaption>
+        This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
+      </figcaption>
+    </figure>
+
+    <section>
+      <h2>HISTORY</h2>
+      <p>
+        Magalang is a historic town nestled at the base of Mount Arayat, one of the most iconic natural landmarks in Pampanga. The town traces its roots to the early Spanish colonial period, when missionaries and Augustinian friars began establishing settlements across Central Luzon. Originally located in a place called San Bartolome, the town was forced to relocate after a series of calamities, including floods and epidemics, which devastated the original settlement. The people, resilient and united, transferred to the current site and rebuilt their community with renewed hope and strength.
+      </p>
+      <p>
+        During the Spanish era, Magalang became a thriving agricultural town due to its fertile land nourished by the mountain’s natural springs. It later gained prominence with the establishment of an agricultural school—now known as Pampanga State Agricultural University, one of the oldest agricultural institutions in the country. The town played a vital role in training farmers and promoting agricultural innovation, earning it recognition beyond Pampanga.
+      </p>
+    </section>
+
+    <section>
+      <h2>STORY BEHIND THE NAME</h2>
+      <p>
+        The name “Magalang” comes from the Filipino word "magalang," which means "respectful" or "courteous." The town’s name reflects the character of its people—known for their politeness, hospitality, and strong community values. This identity remains rooted in the everyday life and traditions of Magaleños.
+      </p>
+    </section>
+
+    <section>
+      <h2>TRADEMARK OF MAGALANG</h2>
+      <p>
+        Magalang is famous for its local delicacies such as pastillas, tamales, and sweet treats made from carabao’s milk. It is also home to scenic spots and pilgrimage sites, including the picturesque Mount Arayat trails. The town preserves its agricultural legacy through ongoing farming traditions and local festivals that highlight its rich produce.
+      </p>
+    </section>
+
+    <section>
+      <h2>INTERESTING FACTS</h2>
+      <ul>
+        <li>Magalang is located at the foot of Mount Arayat, making it a popular spot for hikers and nature enthusiasts.</li>
+        <li>The town was once home to the first agricultural school in Pampanga, now known as Pampanga State Agricultural University.</li>
+        <li>Local delicacies like pastillas and tamales are signature products of Magalang.</li>
+        <li>The town name represents the virtue of respect, a trait proudly upheld by its residents.</li>
+        <li>Magalang celebrates various cultural and agricultural festivals honoring its farming heritage.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
+    </div>
+    
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="about.html">ABOUT US</a>
+      </div>
+
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+  </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
+</body>
+</html>

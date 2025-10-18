@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 20, 2025
+  -->
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/facivon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webbing Pampanga | Discover San Simon</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
+  <header class="header-image">
+    <img src="images/img_sansimon.jpg" alt="San Simon Header">
+  </header>
+
+  <main class="content">
+    <h1>Municipality of San Simon</h1>
+    <h3>Home of Faith, Agriculture, and Community Festivals</h3>
+
+    <figure class="header-video">
+      <iframe
+        src="https://www.youtube.com/embed/YoP6WraoX3k"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <figcaption>
+        This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
+      </figcaption>
+    </figure>
+
+    <section>
+    <h2>HISTORY</h2>
+    <p>
+        San Simon, Pampanga, was originally part of Bacolor and officially became an independent municipality in 1771. Early settlers were primarily farmers and fishermen, drawn to the fertile lands along the Pampanga River. Agriculture became the backbone of the community, with rice, sugarcane, and vegetables sustaining livelihoods and trade with nearby towns. During the Spanish colonial period, the town developed several Catholic parishes, highlighting the strong influence of faith in daily life. The people of San Simon were active participants in local uprisings and community initiatives, which fostered a culture of resilience and unity.
+    </p>
+    <p>
+        In the 20th century, San Simon gradually modernized with the establishment of schools, marketplaces, and infrastructure that connected it to other parts of Pampanga and Central Luzon. The town preserved its religious traditions, celebrating annual fiestas honoring its patron saint, Saint Simon, while integrating new agricultural techniques and small-scale industries. Today, San Simon maintains its historical and cultural roots while embracing development. Modern irrigation systems, community centers, and educational institutions reflect the town’s progress, yet its festivals, local crafts, and agricultural heritage continue to define its unique identity in Pampanga.
+    </p>
+    <p>
+        From its beginnings as a riverside settlement to its present role as a thriving municipality, San Simon exemplifies the balance of tradition and progress. Its residents continue to honor the town’s history while contributing to sustainable agriculture, local commerce, and community cohesion, making San Simon a remarkable example of heritage and modern growth coexisting harmoniously.
+    </p>
+    </section>
+
+    <section>
+      <h2>STORY BEHIND THE NAME</h2>
+      <p>
+        The town of San Simon was named in honor of <span>Saint Simon</span>, reflecting the town’s strong Catholic roots. The naming demonstrates the integration of faith into everyday life, with the town celebrating the saint’s feast and organizing community events around religious traditions.
+      </p>
+    </section>
+
+    <section>
+      <h2>LOCAL SIGNIFICANCE</h2>
+      <p>
+        San Simon is known for its agricultural productivity, producing rice, sugarcane, and various vegetables that supply markets in Pampanga and nearby provinces. The municipality is also recognized for its vibrant festivals, including religious processions, town fiestas, and community celebrations that foster unity and cultural pride. These events showcase the town’s identity as both a faith-centered and agriculturally productive municipality.
+      </p>
+    </section>
+
+    <section>
+      <h2>INTERESTING FACTS</h2>
+      <ul>
+        <li>San Simon was originally part of Bacolor before becoming an independent municipality in 1771.</li>
+        <li>The town celebrates its patron saint, Saint Simon, with annual fiestas and religious events.</li>
+        <li>Agriculture remains the backbone of the local economy, with rice and sugarcane as key crops.</li>
+        <li>San Simon actively preserves its heritage through cultural festivals, community programs, and religious traditions.</li>
+        <li>The municipality is located along the Pampanga River, contributing to its fertile lands and rich fishing areas.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <p class="tagline">San Simon: Where Faith and Agriculture Flourish</p>
+    </div>
+    
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="about.html">ABOUT US</a>
+      </div>
+
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+  </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
+</body>
+</html>

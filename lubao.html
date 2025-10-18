@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 20, 2025
+  -->
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/facivon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webbing Pampanga | Discover Lubao</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
+  <header class="header-image">
+    <img src="images/img_lubao.jpg" alt="Municipality of Lubao Header">
+  </header>
+
+  <main class="content">
+    <h1>Municipality of Lubao</h1>
+    <h3>Cradle of Kapampangan Civilization</h3>
+
+    <figure class="header-video">
+    <iframe
+        src="https://www.youtube.com/embed/wsNxq-vNSvQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+    <figcaption>
+        This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
+    </figcaption>
+    </figure>
+
+    <section>
+      <h2>HISTORY</h2>
+      <p>
+        Lubao is recognized as one of the oldest towns in Pampanga and is often called the Cradle of Kapampangan Civilization. Early riverbank settlers formed communities along waterways and estuaries, building trade networks and cultural roots. During the Spanish colonial era, Lubao gained institutional importance, with religious missions, local governance, and agricultural development anchoring its place in the region. Over the centuries, Lubao’s identity grew in tandem with both nature and settlement.
+      </p>
+      <p>
+        In modern times, Lubao adapted through resilient recovery after disasters and through growth in agriculture, trade, and civic life. It thrives today as a first-class municipality, honored for being the birthplace of leaders and preserving heritage structures. Its people continue to sustain traditional customs and combine them with modern ambitions, positioning Lubao as both guardian of history and driver of progress.
+      </p>
+    </section>
+
+    <section>
+      <h2>STORY BEHIND THE NAME</h2>
+      <p>The name “Lubao” is believed to come from the native term “lubo,” meaning lowland or sunken land, reflecting the geography of river plains and wetlands in its territory. Over time, “lubo” evolved into “Lubao” in local speech and colonial records, embracing both its physical identity and cultural evolution.</p>
+    </section>
+
+    <section>
+      <h2>TRADEMARK OF LUBAO</h2>
+      <p>Lubao is known for its strong cultural legacy, being the birthplace of prominent national figures, and for its architectural heritage such as the San Agustin Parish Church, a centuries-old edifice. Additionally, the town hosts events celebrating its identity—such as the Sampaguita Festival—and engages in agriculture, aquaculture, and traditional crafts, making it a community that honors both its roots and its future.</p>
+    </section>
+
+    <section>
+      <h2>INTERESTING FACTS</h2>
+      <ul>
+        <li>Lubao was founded in the early Spanish era and is considered one of Pampanga’s earliest settlements.</li>
+        <li>The town is the birthplace of notable leaders who shaped the country’s history.</li>
+        <li>San Agustin Parish Church in Lubao is among the oldest heritage churches in the region.</li>
+        <li>Its name reflects the landscape: lowland and fertile plains bordering rivers and wetlands.</li>
+        <li>Lubao blends tradition and progress, preserving cultural identity while engaging in modern development.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
+    </div>
+
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="about.html">ABOUT US</a>
+      </div>
+
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+  </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
+</body>
+</html>

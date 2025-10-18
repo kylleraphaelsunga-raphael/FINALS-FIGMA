@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 20, 2025
+  -->
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/facivon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webbing Pampanga | Discover Santa Rita</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
+  <header class="header-image">
+    <img src="images/img_santarita.jpg" alt="Santa Rita Pampanga Header">
+  </header>
+
+  <main class="content">
+    <h1>Municipality of Santa Rita</h1>
+    <h3>Garden of Pampanga</h3>
+
+    <figure class="header-video">
+      <iframe
+        src="https://www.youtube.com/embed/jXItM7CB_2Y"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <figcaption>
+        This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
+      </figcaption>
+    </figure>
+
+    <section>
+      <h2>HISTORY</h2>
+      <p>
+        Santa Rita, officially known as the Municipality of Santa Rita, traces its origins to 1697 when it began as a settlement called Gasac, now Barangay San Isidro. During this period, the town was under the jurisdiction of Porac, which managed its political and religious affairs. In 1724, Santa Rita was officially separated from Porac, though it was not yet recognized as a separate parish. The town's religious independence was achieved in 1771, marking a significant milestone in its development.
+      </p>
+      <p>
+        The construction of the Santa Rita de Cascia Parish Church commenced in the 1830s and was completed in the 1860s. This church stands as a testament to the town's rich history and cultural heritage. Over the years, Santa Rita has evolved from a modest settlement into a thriving municipality known for its agricultural prowess and vibrant community life.
+      </p>
+    </section>
+
+    <section>
+      <h2>STORY BEHIND THE NAME</h2>
+      <p>
+        The name "Santa Rita" is derived from St. Rita of Cascia, an Italian saint known for her piety and devotion. The town adopted her name in the late 18th century, reflecting the community's deep religious roots and the saint's influence on their spiritual life.
+      </p>
+    </section>
+
+    <section>
+      <h2>TRADEMARK OF SANTA RITA</h2>
+      <p>
+        Santa Rita is renowned for its agricultural products, particularly the delicacies "turrones de casoy" (cashew-based sweets) and "duman" (a type of rice cake). These treats are integral to the town's culinary identity and are celebrated during local festivals. The Duman Festival, held annually, showcases these delicacies and honors the town's agricultural heritage.
+      </p>
+    </section>
+
+    <section>
+      <h2>INTERESTING FACTS</h2>
+      <ul>
+        <li>Santa Rita was officially separated from Porac in 1724 and achieved religious independence in 1771.</li>
+        <li>The Santa Rita de Cascia Parish Church, a historical landmark, was completed in the 1860s.</li>
+        <li>The town is a significant producer of agricultural products, contributing to the local and regional economy.</li>
+        <li>Santa Rita's cultural heritage is preserved through its festivals, historical sites, and community traditions.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
+    </div>
+    
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="about.html">ABOUT US</a>
+      </div>
+
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+  </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
+</body>
+</html>

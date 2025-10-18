@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 20, 2025
+  -->
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/facivon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webbing Pampanga | Discover Arayat</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
+  <header class="header-image">
+    <img src="images/img_arayat.jpg" alt="Municipality of Arayat Header">
+  </header>
+
+  <main class="content">
+    <h1>Municipality of Arayat</h1>
+    <h3>Majestic Home of Mount Arayat</h3>
+
+    <figure class="header-video">
+      <iframe
+        src="https://www.youtube.com/embed/asiYH4QpTLo"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <figcaption>
+        This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
+      </figcaption>
+    </figure>
+
+    <section>
+      <h2>HISTORY</h2>
+      <p>
+        Arayat is one of the most historic municipalities in Pampanga, believed to have been founded during the early Spanish colonial period. Its strategic location at the foot of Mount Arayat made it a thriving settlement for early Kapampangans who depended on agriculture, river trade, and mountain resources. The town played an important role in local commerce due to its proximity to the Pampanga River, connecting it to nearby communities through water-based trade routes.
+      </p>
+      <p>
+        During Spanish rule, Arayat became known for its strong devotion to Catholicism, leading to the establishment of religious structures and traditions that shaped its cultural identity. The fertile lands surrounding the area allowed it to flourish agriculturally, producing rice, sugarcane, and native crops that contributed to its economic stability. Today, Arayat stands as a symbol of cultural heritage and natural beauty, with Mount Arayat serving as its most iconic landmark and a constant reminder of the town’s historical roots.
+      </p>
+    </section>
+
+    <section>
+      <h2>STORY BEHIND THE NAME</h2>
+      <p>The name "Arayat" is said to have originated from the ancient term “Dayat,” which referred to a vast field or open land. Over time, the name evolved into “Arayat,” representing both the fertile plains surrounding the town and the towering mountain that has become synonymous with its identity.</p>
+    </section>
+
+    <section>
+      <h2>TRADEMARK OF ARAYAT</h2>
+      <p>Arayat is most famously known for **Mount Arayat**, a mystical mountain surrounded by legends and cultural stories. The municipality is also recognized for its agricultural heritage, traditional crafts, and local delicacies. Tourism thrives through attractions such as mountain trails, river spots, and cultural festivals that highlight the town’s connection to nature and tradition.</p>
+    </section>
+
+    <section>
+      <h2>INTERESTING FACTS</h2>
+      <ul>
+        <li>Mount Arayat is a dormant volcano and one of Pampanga’s most iconic natural landmarks.</li>
+        <li>The town is associated with folklore about a mythical guardian spirit named Sinukuan.</li>
+        <li>Arayat has long been a center of agriculture, known for rice fields and sugarcane plantations.</li>
+        <li>It served as an important trade point due to its location near the Pampanga River.</li>
+        <li>The municipality is a popular destination for hikers, pilgrims, and nature enthusiasts.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
+    </div>
+
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="about.html">ABOUT US</a>
+      </div>
+
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+  </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
+</body>
+</html>

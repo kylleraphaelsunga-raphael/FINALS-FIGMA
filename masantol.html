@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 20, 2025
+  -->
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/facivon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webbing Pampanga | Discover Masantol</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
+  <header class="header-image">
+    <img src="images/img_masantol.jpg" alt="Masantol Header">
+  </header>
+
+  <main class="content">
+    <h1>Municipality of Masantol</h1>
+    <h3>Where Rivers, Faith, and Tradition Meet</h3>
+
+    <figure class="header-video">
+      <iframe
+        src="https://www.youtube.com/embed/43IH2gbAvBA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <figcaption>
+        This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
+      </figcaption>
+    </figure>
+
+    <section>
+      <h2>HISTORY</h2>
+      <p>
+        Masantol was originally part of Macabebe until local leaders petitioned for independence. On June 26, 1877, Manuel Fajardo, Gregorio Bautista, and Juan Lacap filed an appeal to separate the barrios of Bebe, Bulacus, Caingin, and Nigui. Their request was approved, and on May 1, 1878, the new pueblo of San Miguel de Masantol was officially recognized during the Spanish colonial period.
+      </p>
+      <p>
+        The town’s religious and cultural identity strengthened with the establishment of its own parish on January 13, 1894, formally separating it ecclesiastically from Macabebe. The church was completed in 1901 and later renovated by devoted parishioners and clergy, standing today as a symbol of the town’s faith and unity.
+      </p>
+      <p>
+        In 1904, due to administrative restructuring under American rule, Masantol was merged back with Macabebe. However, the spirit of its people remained strong, and in 1907, Masantol officially regained its status as an independent municipality. Despite experiencing constant flooding and environmental challenges due to its location near Manila Bay and river channels, Masantol has remained a town defined by resilience, community spirit, and deep cultural roots.
+      </p>
+    </section>
+
+    <section>
+      <h2>STORY BEHIND THE NAME</h2>
+      <p>
+        The name “Masantol” is believed to have originated from the abundance of <em>santol</em> trees in the area. According to local tales, early traders transporting baskets of santol fruits often referred to the area as “Maraming Santol,” which eventually shortened to “Masantol.” Another folk story claims that a Spanish friar, upon asking locals about the place, was told “Mas santol po,” and mistook it as the name of the town.
+      </p>
+    </section>
+
+    <section>
+      <h2>TRADEMARK OF MASANTOL</h2>
+      <p>
+        Masantol is known for its river-based lifestyle and thriving fishing communities. Many residents rely on the Pampanga River and connected waterways for livelihood, cultivating freshwater fish such as tilapia and ulang. The town is also recognized for its strong devotion to San Miguel Archangel, celebrated annually through vibrant river processions and faith-centered festivals.
+      </p>
+    </section>
+
+    <section>
+      <h2>INTERESTING FACTS</h2>
+      <ul>
+        <li>Masantol was once merged with Macabebe but regained its independence as a municipality in 1907.</li>
+        <li>The town celebrates its devotion to San Miguel Archangel with colorful fluvial parades and religious festivals.</li>
+        <li>Due to its location near rivers and Manila Bay, many farmlands have transitioned into fishponds over time.</li>
+        <li>The town's name is linked to the santol fruit, a once-abundant product traded across neighboring towns.</li>
+        <li>Despite frequent flooding, Masantol communities are known for their adaptability and strong sense of bayanihan.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
+    </div>
+    
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="about.html">ABOUT US</a>
+      </div>
+
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+  </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
+</body>
+</html>

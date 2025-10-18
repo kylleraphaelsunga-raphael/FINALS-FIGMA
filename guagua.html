@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Name: Sunga, Kylle Raphael Y.
+    Section: WD202
+    Activity: Finals Figma Project
+    Date: October 20, 2025
+  -->
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/facivon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webbing Pampanga | Discover Guagua</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
+  <header class="header-image">
+    <img src="images/img_guagua.jpg" alt="Municipality of Guagua Header">
+  </header>
+
+  <main class="content">
+    <h1>Municipality of Guagua</h1>
+    <h3>Gateway of Pampanga Towns</h3>
+
+    <figure class="header-video">
+        <iframe
+            src="https://www.youtube.com/embed/fyP22npR_-M"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        <figcaption>
+            This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
+        </figcaption>
+    </figure>
+
+    <section>
+      <h2>HISTORY</h2>
+      <p>
+        Guagua is one of Pampanga’s oldest towns, located along the banks of the Pampanga River where early settlers found fertile lands and abundant water sources. During Spanish colonization, it prospered as a trading post connecting inland towns to river routes and coastal areas. Its name is believed to stem from local terms referencing water or streams. Over time, Guagua evolved as a hub for agriculture, small trade, and local governance, reflecting the broader growth of the Pampanga region.
+      </p>
+      <p>
+        In the 20th century, Guagua deepened its place in regional life through increased infrastructure, public education, and local industry. Even in times of crisis such as floods or typhoons, the town has adapted by improving water control systems and community resilience. Today, Guagua stands as a vibrant municipality that honors its historical roots while participating in modern commerce, civic life, and cultural expression.
+      </p>
+    </section>
+
+    <section>
+      <h2>STORY BEHIND THE NAME</h2>
+      <p>The name “Guagua” is believed to originate from the Kapampangan word for “water” or “stream,” reflecting the town’s early identity as a riverside settlement. Its proximity to the Pampanga River shaped both its name and its early life, anchoring its character in waterways and commerce.</p>
+    </section>
+
+    <section>
+      <h2>TRADEMARK OF GUAGUA</h2>
+      <p>Guagua is known for its role as a trading gateway, serving as a link between hinterland municipalities and major commercial centers. The town is also recognized for producing rice, vegetables, and aquaculture products, and for preserving heritage sites including old churches, ancestral houses, and places of community memory that reflect its long-standing local influence.</p>
+    </section>
+
+    <section>
+      <h2>INTERESTING FACTS</h2>
+      <ul>
+        <li>Guagua is traversed by the Pampanga River, making it historically significant for water transport and trade.</li>
+        <li>The town played an important role connecting inland areas to markets through river and land routes.</li>
+        <li>It has a mix of agricultural, aquaculture, and small-scale industries, reflecting economic diversity.</li>
+        <li>Guagua maintains several heritage sites that echo its colonial history and local identity.</li>
+        <li>The municipality is noted for community resilience, especially in dealing with flooding and natural events.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
+    </div>
+
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <div class="nav-item">
+        <span class="nav-icon"></span>
+        <a href="about.html">ABOUT US</a>
+      </div>
+
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
+  </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
+</body>
+</html>
