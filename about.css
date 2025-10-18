@@ -134,17 +134,19 @@ body {
 }
 
 .programmer-profile {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 15px;            
+    margin-top: 10px;
+    text-align: center;     
 }
 
 .programmer-photo {
-  width: 150px;
-  height: 150px;   
-  object-fit: cover; 
-  border: 2px solid #ccc; 
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #ccc;
 }
 
 /* footer */
@@ -346,6 +348,12 @@ footer {
   .footer-container {
     padding: 0 60px;
   }
+
+  .programmer-profile {
+    flex-direction: row; 
+    align-items: flex-start;
+    text-align: left;
+  }
 }
 
 /* large desktop */
@@ -367,5 +375,12 @@ footer {
     font-size: 18px;
     letter-spacing: 1px;
   }
+
+  .programmer-profile {
+    flex-direction: row; 
+    align-items: flex-start;
+    text-align: left;
+  }
 }
+
 
