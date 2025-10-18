@@ -14,21 +14,38 @@
 </head>
 <body>
 
-  <a href="Places.html" class="back-arrow"><</a>
+  <!-- Back Button -->
+  <a href="Places.html" class="back-btn">&#8592; Back</a>
+
   <header class="header-image">
-    <img src="img_sf.jpg" alt="City of Mabalacat Header">
+    <img src="img_sf.jpg" alt="City of San Fernando Header">
   </header>
 
   <main class="content">
-    <h1>CITY OF SAN FERNANDO</h1>
-    <h3>Provincial Capital of Pampanga</h3>
-    <h3>Christmas Capital of the Philippines</h3>
+    <h1>City of San Fernando</h1>
+    <h3>Provincial Capital of Pampanga</br>
+    Christmas Capital of the Philippines</h3>
+
+    <figure class="header-video">
+      <iframe
+        src="https://www.youtube.com/embed/Pea7zVXaut8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <figcaption>
+        This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
+      </figcaption>
+    </figure>
 
     <section>
       <h2>HISTORY</h2>
-      <p>San Fernando, the capital of Pampanga, was established as a town in 1754 when it was carved out from the municipalities of Bacolor and Mexico. It was named after King Ferdinand VI of Spain, and since then, it has played a central role in the province’s history and governance. During the Spanish period, San Fernando flourished as a trading and agricultural hub, while also becoming a center of faith with the establishment of its parish church. The town was later involved in revolutionary movements, with many Kapampangans from San Fernando joining uprisings against Spanish and American colonizers. In the American era, the arrival of the railway connecting Manila to Dagupan passed through San Fernando, further boosting its economy and accessibility. In the aftermath of World War II, San Fernando rose from destruction and continued to strengthen its role as Pampanga’s seat of government. It achieved cityhood on February 4, 2001 through Republic Act No. 8990, and today it is known as the “Christmas Capital of the Philippines” for its world-renowned Giant Lantern Festival.</p>
-
-      <p>San Fernando City has a land area of about 67.74 square kilometers and is politically subdivided into 35 barangays, including Dolores, Sto. Rosario, Sindalan, Telabastagan, Del Pilar, San Jose, Calulut, Sta. Lucia, Malpitic, San Isidro, and Maimpis, among others. According to the 2020 census, the city has a population of over 354,000 residents, making it one of the largest and most urbanized cities in Central Luzon. San Fernando is home to major commercial centers such as SM City Pampanga and Robinsons Starmills, which make the city a retail and business hub. Its cultural and religious landmarks include the Metropolitan Cathedral of San Fernando, the Bren Z. Guiao Convention Center, and the Death March marker, which commemorates the city’s role during World War II. The city also celebrates the Fiesta of Our Lady of the Assumption and the world-famous Ligligan Parul (Giant Lantern Festival) held every December, drawing visitors from around the world. Today, San Fernando continues to grow as Pampanga’s political, cultural, and economic center, blending historical pride with modern urban development.</p>
+      <p>
+        San Fernando, the capital of Pampanga, was established as a town in 1754 when it was carved out from the municipalities of Bacolor and Mexico. It was named after King Ferdinand VI of Spain, and since then, it has played a central role in the province’s history and governance. During the Spanish period, San Fernando flourished as a trading and agricultural hub, while also becoming a center of faith with the establishment of its parish church. The town was later involved in revolutionary movements, with many Kapampangans from San Fernando joining uprisings against Spanish and American colonizers. In the American era, the arrival of the railway connecting Manila to Dagupan passed through San Fernando, further boosting its economy and accessibility. In the aftermath of World War II, San Fernando rose from destruction and continued to strengthen its role as Pampanga’s seat of government. It achieved cityhood on February 4, 2001 through Republic Act No. 8990, and today it is known as the “Christmas Capital of the Philippines” for its world-renowned Giant Lantern Festival.
+      </p>
+      <p>
+        San Fernando City has a land area of about 67.74 square kilometers and is politically subdivided into 35 barangays, including Dolores, Sto. Rosario, Sindalan, Telabastagan, Del Pilar, San Jose, Calulut, Sta. Lucia, Malpitic, San Isidro, and Maimpis, among others. According to the 2020 census, the city has a population of over 354,000 residents, making it one of the largest and most urbanized cities in Central Luzon. San Fernando is home to major commercial centers such as SM City Pampanga and Robinsons Starmills, which make the city a retail and business hub. Its cultural and religious landmarks include the Metropolitan Cathedral of San Fernando, the Bren Z. Guiao Convention Center, and the Death March marker, which commemorates the city’s role during World War II. The city also celebrates the Fiesta of Our Lady of the Assumption and the world-famous Ligligan Parul (Giant Lantern Festival) held every December, drawing visitors from around the world. Today, San Fernando continues to grow as Pampanga’s political, cultural, and economic center, blending historical pride with modern urban development.</p>
     </section>
 
     <section>
@@ -37,7 +54,7 @@
     </section>
 
     <section>
-      <h2>TRADEMARK OF SAN FERNANDO</h2>
+      <h2>TRADEMARK OF PORAC</h2>
       <p>San Fernando is widely known as the “Christmas Capital of the Philippines”, thanks to its world-famous Giant Lantern Festival (Ligligan Parul) held every December. The festival showcases the artistry of Kapampangans in crafting giant, brightly lit lanterns that symbolize hope, joy, and community spirit. Another trademark of the city is its preserved heritage, including ancestral houses along Consunji Street and the Metropolitan Cathedral, which reflect the city’s deep cultural and religious history.</p>
     </section>
 
@@ -53,15 +70,57 @@
     </section>
   </main>
 
+  <!-- Footer with Hamburger Menu -->
   <footer>
     <div class="footer-container">
+      <div class="hamburger" id="hamburger">&#9776;</div>
       <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
-      <div class="footer-links">
+    </div>
+
+    <div class="desktop-nav">
+      <a href="about.html">ABOUT US</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <!-- Side Navigation -->
+    <nav class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+
+      <!-- Contact -->
+      <div class="nav-item">
+        <span class="nav-icon"></span>
         <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <hr class="nav-separator">
+
+      <!-- About -->
+      <div class="nav-item">
+        <span class="nav-icon"></span>
         <a href="about.html">ABOUT US</a>
       </div>
-    </div>
+
+      <!-- Footer Note -->
+      <p class="nav-footer-note">
+        © 2025 Webbing Pampanga.<br>
+        Sunga, Kylle Raphael Y.<br>
+        WD202
+      </p>
+    </nav>
   </footer>
+
+  <script>
+    const sideNav = document.getElementById('sideNav');
+    const hamburger = document.getElementById('hamburger');
+    const closeBtn = document.getElementById('closeBtn');
+
+    hamburger.addEventListener('click', () => {
+      sideNav.style.width = '200px';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sideNav.style.width = '0';
+    });
+  </script>
 </body>
 </html>
-
