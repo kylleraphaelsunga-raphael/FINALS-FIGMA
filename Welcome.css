@@ -1,9 +1,13 @@
+/* =============================
+   RESET & BASE STYLES
+   ============================= */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Base body styling */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #222;
@@ -12,22 +16,36 @@ body {
   overflow-x: hidden;
 }
 
+/* =============================
+   BACKGROUND IMAGE & OVERLAY
+   ============================= */
+
+/* Full-width background image with filters */
 .background img {
   width: 100%;
   display: block;
   filter: brightness(0.9) contrast(1.05);
 }
 
+/* Overlay container to position content above background */
 .overlay {
   position: relative;
   z-index: 2;
 }
 
+/* =============================
+   MAIN CONTENT AREA
+   ============================= */
+
+/* Content box styling with padding and blur for readability */
 .content {
   padding: 40px 20px;
   backdrop-filter: blur(4px);
 }
 
+/* =============================
+   TITLE STYLING
+   ============================= */
 .title {
   font-size: 70px;
   font-weight: 900;
@@ -37,20 +55,26 @@ body {
   letter-spacing: 2px;
 }
 
+/* Make title subtitle appear in a new line */
 .title span {
   display: block;
 }
 
+/* =============================
+   TEXT CONTENT (HEADINGS & PARAGRAPHS)
+   ============================= */
 h2 {
   font-size: 28px;
   color: black;
   margin-bottom: 5px;
 }
 
+/* Emphasized part of h2 text */
 h2 span {
   font-weight: 700;
 }
 
+/* Paragraph text styling */
 p {
   font-size: 14px;
   color: black;
@@ -60,6 +84,9 @@ p {
   max-width: 400px;
 }
 
+/* =============================
+   BUTTON STYLES
+   ============================= */
 .btn {
   background: #e75b4b;
   color: white;
@@ -71,13 +98,17 @@ p {
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
+/* Hover animation for buttons */
 .btn:hover {
   background: #c74435;
   transform: translateY(-3px);
 }
 
-/* media */
-/* mobile */
+/* =============================
+   RESPONSIVE DESIGN
+   ============================= */
+
+/* ===== MOBILE (max-width: 629px) ===== */
 @media screen and (max-width: 629px) {
   .title {
     font-size: 48px;
@@ -97,6 +128,7 @@ p {
     padding: 10px 22px;
   }
 
+  /* Mobile layout adds rounded background box for text contrast */
   .content {
     background: rgba(255, 255, 255, 0.85);
     border-radius: 25px 25px 0 0;
@@ -105,7 +137,7 @@ p {
   }
 }
 
-/* tablet */
+/* ===== TABLET (630px–1014px) ===== */
 @media screen and (min-width: 630px) and (max-width: 1014px) {
   .title {
     font-size: 60px;
@@ -124,6 +156,7 @@ p {
     padding: 11px 25px;
   }
 
+  /* Tablet layout: centered and elevated content box */
   .content {
     background: rgba(255, 255, 255, 0.85);
     margin-top: auto;
@@ -133,8 +166,9 @@ p {
   }
 }
 
-/* desktop */
+/* ===== DESKTOP (1015px–1920px) ===== */
 @media screen and (min-width: 1015px) and (max-width: 1920px) {
+  /* Remove extra background and center content visually */
   body {
     justify-content: center;
     background: none;
@@ -144,6 +178,7 @@ p {
     margin-top: 100px;
   }
 
+  /* Background image becomes fixed and covers entire viewport */
   .background img {
     position: absolute;
     width: 100%;
@@ -155,6 +190,7 @@ p {
     filter: brightness(0.7);
   }
 
+  /* Text becomes white for better readability over dark background */
   .content h2,
   .content p {
     color: white;
@@ -162,7 +198,7 @@ p {
   }
 }
 
-/* large desktop */
+/* ===== LARGE DESKTOP (1921px and above) ===== */
 @media screen and (min-width: 1921px) {
   .title {
     font-size: 90px;
