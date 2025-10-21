@@ -7,37 +7,44 @@
     Activity: Finals Figma Project
     Date: October 20, 2025
   -->
+
+  <!-- ===== META, TITLE & FAVICON ===== -->
   <meta charset="UTF-8">
-  <link rel="icon" type="image/png" href="images/facivon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Webbing Pampanga | Discover Apalit</title>
+  <link rel="icon" type="image/png" href="images/facivon.png">
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
+  <!-- ===== BACK BUTTON ===== -->
   <a href="Places.html" class="back-btn">&#8592; Back</a>
 
+  <!-- ===== HEADER IMAGE ===== -->
   <header class="header-image">
     <img src="images/img_apalit.png" alt="Municipality of Apalit Header">
   </header>
 
+  <!-- ===== MAIN CONTENT ===== -->
   <main class="content">
     <h1>Municipality of Apalit</h1>
     <h3>Home of the Apung Iru Fluvial Festival</h3>
 
+    <!-- ===== FEATURED VIDEO ===== -->
     <figure class="header-video">
-    <iframe
+      <iframe
         src="https://www.youtube.com/embed/P1sCElEx1_c"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
-    </iframe>
-    <figcaption>
+      </iframe>
+      <figcaption>
         This video is used for educational and non-commercial purposes only. No copyright infringement is intended.
-    </figcaption>
+      </figcaption>
     </figure>
 
+    <!-- ===== HISTORY SECTION ===== -->
     <section>
       <h2>HISTORY</h2>
       <p>
@@ -48,16 +55,19 @@
       </p>
     </section>
 
+    <!-- ===== STORY BEHIND THE NAME ===== -->
     <section>
       <h2>STORY BEHIND THE NAME</h2>
       <p>The name Apalit comes from the Apalit tree, a once-abundant species in the area. Locals used its wood for various purposes, and its presence became so significant that the town was named after it, symbolizing natural abundance and resilience.</p>
     </section>
 
+    <!-- ===== TRADEMARK SECTION ===== -->
     <section>
       <h2>TRADEMARK OF APALIT</h2>
-      <p>Apalit is widely known for the **Libad Festival**, a fluvial parade held annually in honor of Saint Peter. Residents and visitors gather along the Pampanga River to witness the grand boat procession, showcasing the town’s rich faith and tradition. The municipality is also recognized for its handcrafted goods, local trade markets, and strategic river-based commerce.</p>
+      <p>Apalit is widely known for the <strong>Libad Festival</strong>, a fluvial parade held annually in honor of Saint Peter. Residents and visitors gather along the Pampanga River to witness the grand boat procession, showcasing the town’s rich faith and tradition. The municipality is also recognized for its handcrafted goods, local trade markets, and strategic river-based commerce.</p>
     </section>
 
+    <!-- ===== INTERESTING FACTS ===== -->
     <section>
       <h2>INTERESTING FACTS</h2>
       <ul>
@@ -70,6 +80,7 @@
     </section>
   </main>
 
+  <!-- ===== FOOTER & NAVIGATION ===== -->
   <footer>
     <div class="footer-container">
       <div class="hamburger" id="hamburger">&#9776;</div>
@@ -104,6 +115,7 @@
     </nav>
   </footer>
 
+  <!-- ===== JAVASCRIPT FOR NAV FUNCTIONALITY ===== -->
   <script>
     const sideNav = document.getElementById('sideNav');
     const hamburger = document.getElementById('hamburger');
@@ -117,5 +129,6 @@
       sideNav.style.width = '0';
     });
   </script>
+
 </body>
 </html>
