@@ -1,4 +1,6 @@
-/* Reset and base */
+/* =============================
+   RESET AND BASE
+   ============================= */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +14,9 @@ body {
   line-height: 1.6;
 }
 
-/* Back Button */
+/* =============================
+   BACK BUTTON
+   ============================= */
 .back-btn {
   position: fixed;
   top: 20px;
@@ -35,7 +39,9 @@ body {
   box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
-/* Header Image */
+/* =============================
+   HEADER IMAGE & VIDEO
+   ============================= */
 .header-image {
   position: relative;
   overflow: hidden;
@@ -64,7 +70,6 @@ body {
   box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
 
-/* Maintain 16:9 aspect ratio */
 .header-video iframe {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -72,7 +77,6 @@ body {
   border: 0;
 }
 
-/* Caption styling */
 .header-video figcaption {
   text-align: center;
   padding: 8px 12px;
@@ -82,7 +86,9 @@ body {
   background: #f2f2f2;
 }
 
-/* Main Content */
+/* =============================
+   MAIN CONTENT
+   ============================= */
 .content {
   padding: 30px 20px;
   max-width: 1000px;
@@ -136,7 +142,9 @@ section ul li {
   color: #3a3a3a;
 }
 
-/* footer */
+/* =============================
+   FOOTER
+   ============================= */
 footer {
   background: #e75b4b;
   color: white;
@@ -161,7 +169,9 @@ footer {
   color: black;
 }
 
-/* Desktop inline navigation */
+/* =============================
+   NAVIGATION
+   ============================= */
 .desktop-nav {
   display: none;
   gap: 20px;
@@ -178,7 +188,6 @@ footer {
   text-decoration: underline;
 }
 
-/* Hamburger menu */
 .hamburger {
   font-size: 30px;
   cursor: pointer;
@@ -189,7 +198,7 @@ footer {
   z-index: 999;
 }
 
-/* Side Navigation */
+/* SIDE NAVIGATION */
 .side-nav {
   height: 100%;
   width: 0;
@@ -260,7 +269,9 @@ footer {
   color: rgba(255,255,255,0.8);
 }
 
-/* Media Queries */
+/* =============================
+   MEDIA QUERIES
+   ============================= */
 
 /* Mobile view */
 @media screen and (max-width: 1014px) {
@@ -295,8 +306,8 @@ footer {
   .content h2 { 
     font-size: 18px; 
     border-left-width: 3px; 
-    padding-left: 8px; }
-
+    padding-left: 8px; 
+  }
   .footer-container { 
     flex-direction: column; 
     gap: 10px; 
@@ -341,12 +352,6 @@ footer {
   .back-btn { 
     padding: 9px 18px; 
     font-size: 1rem; 
-  }
-}
-
-@media screen and (max-width: 1014px) {
-  .desktop-nav { 
-    display: none; 
   }
 }
 
