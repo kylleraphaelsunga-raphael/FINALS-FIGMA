@@ -1,9 +1,13 @@
+/* =============================
+   RESET & BASE STYLES
+   ============================= */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body layout and general styling */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #fcd7d4, #fce5e3);
@@ -14,6 +18,9 @@ body {
   height: 100vh;
 }
 
+/* =============================
+   MAIN CONTAINER
+   ============================= */
 .container {
   text-align: center;
   width: 100%;
@@ -21,6 +28,9 @@ body {
   padding: 20px;
 }
 
+/* =============================
+   TITLE / LOGO TEXT
+   ============================= */
 .title {
   font-size: 70px;
   font-weight: 900;
@@ -34,6 +44,9 @@ body {
   display: block;
 }
 
+/* =============================
+   FORM BOX STYLING
+   ============================= */
 .form-box {
   background: rgba(255, 255, 255, 0.6);
   padding: 30px;
@@ -43,10 +56,12 @@ body {
   transition: transform 0.3s ease;
 }
 
+/* Hover effect for the form box */
 .form-box:hover {
   transform: translateY(-3px);
 }
 
+/* Form header */
 .form-box h2 {
   font-size: 24px;
   font-weight: 700;
@@ -54,28 +69,35 @@ body {
   margin-bottom: 5px;
 }
 
+/* Subtext inside the form */
 .form-box p {
   font-size: 13px;
   margin-bottom: 20px;
 }
 
+/* Links inside the form */
 .form-box a {
   color: black;
   text-decoration: none;
   font-weight: 600;
 }
 
+/* =============================
+   FORM INPUTS
+   ============================= */
 form {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
+/* Group for name input fields */
 .name-fields {
   display: flex;
   gap: 10px;
 }
 
+/* Input field base design */
 input {
   padding: 12px;
   border: 1px solid #f0b4ad;
@@ -86,16 +108,21 @@ input {
   transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
+/* Focus state for inputs */
 input:focus {
   outline: none;
   border-color: #e75b4b;
   box-shadow: 0 0 5px rgba(231, 91, 75, 0.4);
 }
 
+/* =============================
+   PASSWORD FIELD & ICON
+   ============================= */
 .password-field {
   position: relative;
 }
 
+/* Eye icon for password toggle */
 .eye-icon {
   position: absolute;
   right: 12px;
@@ -105,6 +132,9 @@ input:focus {
   font-size: 16px;
 }
 
+/* =============================
+   BUTTON STYLES
+   ============================= */
 .btn {
   display: inline-block;
   text-align: center;
@@ -116,13 +146,17 @@ input:focus {
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
+/* Hover effect for button */
 .btn:hover {
   background: #c74435;
   transform: translateY(-2px);
 }
 
-/* media */
-/* mobile */
+/* =============================
+   RESPONSIVE DESIGN
+   ============================= */
+
+/* ===== MOBILE (max: 629px) ===== */
 @media screen and (max-width: 629px) {
   body {
     height: auto;
@@ -154,7 +188,7 @@ input:focus {
   }
 }
 
-/* tablet */
+/* ===== TABLET (630px–1014px) ===== */
 @media screen and (min-width: 630px) and (max-width: 1014px) {
   .title {
     font-size: 60px;
@@ -175,7 +209,7 @@ input:focus {
   }
 }
 
-/* desktop */
+/* ===== DESKTOP (1015px–1920px) ===== */
 @media screen and (min-width: 1015px) and (max-width: 1920px) {
   .title {
     font-size: 70px;
@@ -195,7 +229,7 @@ input:focus {
   }
 }
 
-/* large desktop */
+/* ===== LARGE DESKTOP (1921px and above) ===== */
 @media screen and (min-width: 1921px) {
   .title {
     font-size: 90px;
