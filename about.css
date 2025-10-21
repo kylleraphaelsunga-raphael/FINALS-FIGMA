@@ -1,3 +1,6 @@
+/* ================================
+   GLOBAL RESET & BASE STYLES
+================================ */
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +16,9 @@ body {
   flex-direction: column;
 }
 
-/* Back Button */
+/* ================================
+   BACK BUTTON
+================================ */
 .back-btn {
   position: fixed;
   top: 20px;
@@ -36,7 +41,9 @@ body {
   box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
-/* header */
+/* ================================
+   HEADER SECTION
+================================ */
 .contact-header {
   position: relative;
   width: 100%;
@@ -70,7 +77,9 @@ body {
   border-radius: 10px;
 }
 
-/* text */
+/* ================================
+   ABOUT / CONTENT SECTION
+================================ */
 .about-intro {
   padding: 20px;
   text-align: justify;
@@ -83,7 +92,9 @@ body {
   padding: 20px;
 }
 
-/* table */
+/* ================================
+   INFORMATION TABLE
+================================ */
 .about-table {
   flex: 1 1 48%;
 }
@@ -117,6 +128,9 @@ body {
   font-style: italic;
 }
 
+/* ================================
+   TEXT & PROGRAMMER PROFILE
+================================ */
 .about-text {
   flex: 1 1 48%;
   margin-left: 10px;
@@ -134,22 +148,24 @@ body {
 }
 
 .programmer-profile {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;    
-    gap: 15px;            
-    margin-top: 10px;
-    text-align: center;     
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .programmer-photo {
-    width: 150px; 
-    height: 150px;
-    object-fit: cover;
-    border: 2px solid #ccc;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid #ccc;
 }
 
-/* footer */
+/* ================================
+   FOOTER SECTION
+================================ */
 footer {
   background: #e75b4b;
   color: white;
@@ -174,7 +190,9 @@ footer {
   color: black;
 }
 
-/* Desktop inline navigation */
+/* ================================
+   NAVIGATION (DESKTOP & MOBILE)
+================================ */
 .desktop-nav {
   display: none;
   gap: 20px;
@@ -191,7 +209,6 @@ footer {
   text-decoration: underline;
 }
 
-/* Hamburger menu */
 .hamburger {
   font-size: 30px;
   cursor: pointer;
@@ -202,7 +219,9 @@ footer {
   z-index: 999;
 }
 
-/* Side Navigation */
+/* ================================
+   SIDE NAVIGATION
+================================ */
 .side-nav {
   height: 100%;
   width: 0;
@@ -273,15 +292,11 @@ footer {
   color: rgba(255,255,255,0.8);
 }
 
+/* ================================
+   MEDIA QUERIES
+================================ */
 
-/* media */
-/* Mobile view */
-@media screen and (max-width: 1014px) {
-  .desktop-nav { 
-    display: none; 
-  }
-}
-
+/* Mobile */
 @media screen and (max-width: 629px) {
   .about-container {
     flex-direction: column;
@@ -303,7 +318,7 @@ footer {
   }
 }
 
-/* tablet */
+/* Tablet */
 @media screen and (min-width: 630px) and (max-width: 1014px) {
   .about-container {
     flex-direction: column;
@@ -319,17 +334,12 @@ footer {
   }
 }
 
-@media screen and (max-width: 1014px) {
-  .desktop-nav { 
-    display: none; 
-  }
-}
-
-/* desktop */
+/* Desktop */
 @media screen and (min-width: 1015px) and (max-width: 1919px) {
-  .hamburger { 
-    display: none; 
+  .hamburger {
+    display: none;
   }
+
   .desktop-nav {
     display: flex;
     position: absolute;
@@ -337,6 +347,7 @@ footer {
     top: 50%;
     transform: translateY(-50%);
   }
+
   .about-container {
     flex-direction: row;
   }
@@ -350,13 +361,13 @@ footer {
   }
 
   .programmer-profile {
-    flex-direction: row; 
+    flex-direction: row;
     align-items: flex-start;
     text-align: left;
   }
 }
 
-/* large desktop */
+/* Large Desktop */
 @media screen and (min-width: 1920px) {
   .contact-header .title {
     font-size: 5rem;
@@ -377,10 +388,8 @@ footer {
   }
 
   .programmer-profile {
-    flex-direction: row; 
+    flex-direction: row;
     align-items: flex-start;
     text-align: left;
   }
 }
-
-
