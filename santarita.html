@@ -15,17 +15,20 @@
 </head>
 <body>
 
-  <!-- BACK BUTTON -->
+  <!-- Back Button -->
   <a href="Places.html" class="back-btn">&#8592; Back</a>
 
-  <!-- MAIN CONTENT -->
-  <main class="content">
+  <!-- Header Image -->
+  <header class="header-image">
+    <img src="images/img_santarita.jpg" alt="Santa Rita Pampanga Header">
+  </header>
 
-    <!-- PAGE TITLE & SUBTITLE -->
+  <!-- Main Content -->
+  <main class="content">
     <h1>Municipality of Santa Rita</h1>
     <h3>Garden of Pampanga</h3>
 
-    <!-- HEADER VIDEO -->
+    <!-- Embedded Video -->
     <figure class="header-video">
       <iframe
         src="https://www.youtube.com/embed/jXItM7CB_2Y"
@@ -39,34 +42,26 @@
       </figcaption>
     </figure>
 
-    <!-- HISTORY -->
+    <!-- History Section -->
     <section>
       <h2>HISTORY</h2>
-      <p>
-        Santa Rita, officially known as the Municipality of Santa Rita, traces its origins to 1697 when it began as a settlement called Gasac, now Barangay San Isidro. During this period, the town was under the jurisdiction of Porac, which managed its political and religious affairs. In 1724, Santa Rita was officially separated from Porac, though it was not yet recognized as a separate parish. The town's religious independence was achieved in 1771, marking a significant milestone in its development.
-      </p>
-      <p>
-        The construction of the Santa Rita de Cascia Parish Church commenced in the 1830s and was completed in the 1860s. This church stands as a testament to the town's rich history and cultural heritage. Over the years, Santa Rita has evolved from a modest settlement into a thriving municipality known for its agricultural prowess and vibrant community life.
-      </p>
+      <p>Santa Rita, officially known as the Municipality of Santa Rita, traces its origins to 1697...</p>
+      <p>The construction of the Santa Rita de Cascia Parish Church commenced in the 1830s...</p>
     </section>
 
-    <!-- STORY BEHIND THE NAME -->
+    <!-- Story Behind the Name Section -->
     <section>
       <h2>STORY BEHIND THE NAME</h2>
-      <p>
-        The name "Santa Rita" is derived from St. Rita of Cascia, an Italian saint known for her piety and devotion. The town adopted her name in the late 18th century, reflecting the community's deep religious roots and the saint's influence on their spiritual life.
-      </p>
+      <p>The name "Santa Rita" is derived from St. Rita of Cascia, reflecting the community's deep religious roots...</p>
     </section>
 
-    <!-- TRADEMARK OF SANTA RITA -->
+    <!-- Trademark Section -->
     <section>
       <h2>TRADEMARK OF SANTA RITA</h2>
-      <p>
-        Santa Rita is renowned for its agricultural products, particularly the delicacies "turrones de casoy" (cashew-based sweets) and "duman" (a type of rice cake). These treats are integral to the town's culinary identity and are celebrated during local festivals. The Duman Festival, held annually, showcases these delicacies and honors the town's agricultural heritage.
-      </p>
+      <p>Santa Rita is renowned for its agricultural products, particularly the delicacies "turrones de casoy" and "duman"...</p>
     </section>
 
-    <!-- INTERESTING FACTS -->
+    <!-- Interesting Facts Section -->
     <section>
       <h2>INTERESTING FACTS</h2>
       <ul>
@@ -76,21 +71,23 @@
         <li>Santa Rita's cultural heritage is preserved through its festivals, historical sites, and community traditions.</li>
       </ul>
     </section>
-
   </main>
 
-  <!-- FOOTER -->
+  <!-- Footer -->
   <footer>
+    <!-- Footer Top / Hamburger & Tagline -->
     <div class="footer-container">
       <div class="hamburger" id="hamburger">&#9776;</div>
       <p class="tagline">WHERE EVERY PLACE TELLS A STORY</p>
     </div>
     
+    <!-- Desktop Navigation Links -->
     <div class="desktop-nav">
       <a href="about.html">ABOUT US</a>
       <a href="contact.html">CONTACT US</a>
     </div>
 
+    <!-- Side Navigation -->
     <nav class="side-nav" id="sideNav">
       <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
 
@@ -106,6 +103,7 @@
         <a href="about.html">ABOUT US</a>
       </div>
 
+      <!-- Footer Note / Copyright -->
       <p class="nav-footer-note">
         © 2025 Webbing Pampanga.<br>
         Sunga, Kylle Raphael Y.<br>
@@ -114,16 +112,18 @@
     </nav>
   </footer>
 
-  <!-- SCRIPT FOR SIDE NAV -->
+  <!-- JavaScript: Side Navigation Toggle -->
   <script>
     const sideNav = document.getElementById('sideNav');
     const hamburger = document.getElementById('hamburger');
     const closeBtn = document.getElementById('closeBtn');
 
+    // Open side nav
     hamburger.addEventListener('click', () => {
       sideNav.style.width = '200px';
     });
 
+    // Close side nav
     closeBtn.addEventListener('click', () => {
       sideNav.style.width = '0';
     });
