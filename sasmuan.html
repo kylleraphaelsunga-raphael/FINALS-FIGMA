@@ -15,17 +15,20 @@
 </head>
 <body>
 
-  <!-- BACK BUTTON -->
+  <!-- Back Button -->
   <a href="Places.html" class="back-btn">&#8592; Back</a>
 
-  <!-- MAIN CONTENT -->
-  <main class="content">
+  <!-- Header Image -->
+  <header class="header-image">
+    <img src="images/img_sasmuan.png" alt="Sasmuan Pampanga Header">
+  </header>
 
-    <!-- PAGE TITLE & SUBTITLE -->
+  <!-- Main Content -->
+  <main class="content">
     <h1>Municipality of Sasmuan</h1>
     <h3>The Bamboo Gateway to the Coast</h3>
 
-    <!-- HEADER VIDEO -->
+    <!-- Embedded Video -->
     <figure class="header-video">
       <iframe
         src="https://www.youtube.com/embed/zSQmeddjaWI"
@@ -39,43 +42,29 @@
       </figcaption>
     </figure>
 
-    <!-- HISTORY -->
+    <!-- History Section -->
     <section>
       <h2>HISTORY</h2>
-      <p>
-        Sasmuan, formerly known as Sexmoan, is a coastal municipality in the province of Pampanga. The name "Sexmoan" was a Spanish adaptation of the Kapampangan term "Sasmuan," which means "meeting place"—a reference to its role as an assembly point for Kapampangan soldiers before they attacked Chinese rebels in Guagua. Over time, the name evolved to "Sasmuan" to better reflect its local pronunciation and identity.
-      </p>
-      <p>
-        The town's history dates back to the late 16th century when it was established as a settlement under Spanish colonial rule. The Santa Lucia Parish Church, built in the 17th century, stands as a testament to the town's rich religious heritage. The church, located beside the Río Grande, was constructed with the support of local nobility and has undergone several reconstructions over the centuries.
-      </p>
-      <p>
-        During the Philippine Revolution, Sasmuan played a significant role as a strategic location for revolutionary activities. Its proximity to Manila Bay made it a key point for trade and communication. The town's involvement in the revolution contributed to its recognition as a historic site in Pampanga.
-      </p>
-      <p>
-        In the 20th century, Sasmuan's economy was primarily based on agriculture, with rice and fish being the main products. The establishment of fish ponds and the development of aquaculture further boosted the local economy. The town's coastal location also made it a hub for fishing activities, providing livelihood to many residents.
-      </p>
-      <p>
-        Today, Sasmuan is known for its unique blend of history, culture, and natural beauty. The town's rich heritage is preserved through its historical sites, while its vibrant community continues to thrive through agriculture and aquaculture. Sasmuan stands as a proud example of Pampanga's diverse and dynamic municipalities.
-      </p>
+      <p>Sasmuan, formerly known as Sexmoan, is a coastal municipality in the province of Pampanga...</p>
+      <p>The town's history dates back to the late 16th century under Spanish colonial rule...</p>
+      <p>During the Philippine Revolution, Sasmuan played a significant role...</p>
+      <p>In the 20th century, Sasmuan's economy was primarily based on agriculture and aquaculture...</p>
+      <p>Today, Sasmuan is known for its unique blend of history, culture, and natural beauty...</p>
     </section>
 
-    <!-- STORY BEHIND THE NAME -->
+    <!-- Story Behind the Name Section -->
     <section>
       <h2>STORY BEHIND THE NAME</h2>
-      <p>
-        The name "Sasmuan" is derived from the Kapampangan words "Sasa," a type of bamboo abundant in the area, and "Pitabmuan," meaning meeting place. This reflects the town's historical role as a gathering point for Kapampangan soldiers. The evolution from "Sexmoan" to "Sasmuan" signifies the town's adaptation and preservation of its cultural identity over time.
-      </p>
+      <p>The name "Sasmuan" is derived from the Kapampangan words "Sasa" and "Pitabmuan," reflecting its historical role as a gathering point for soldiers...</p>
     </section>
 
-    <!-- TRADEMARK OF SASMUAN -->
+    <!-- Trademark Section -->
     <section>
       <h2>TRADEMARK OF SASMUAN</h2>
-      <p>
-        Sasmuan is renowned for its rich cultural heritage, particularly its traditional delicacies. The town is home to several local delicacy producers, such as Sasmuan Delicacies and Aiza's Sweets, which have gained popularity both locally and internationally. These businesses have contributed to the town's economic development and have become a significant part of its identity.
-      </p>
+      <p>Sasmuan is renowned for its rich cultural heritage, particularly its traditional delicacies...</p>
     </section>
 
-    <!-- INTERESTING FACTS -->
+    <!-- Interesting Facts Section -->
     <section>
       <h2>INTERESTING FACTS</h2>
       <ul>
@@ -86,21 +75,23 @@
         <li>Sasmuan is known for its traditional delicacies, which have gained international recognition.</li>
       </ul>
     </section>
-
   </main>
 
-  <!-- FOOTER -->
+  <!-- Footer -->
   <footer>
+    <!-- Footer Top / Hamburger & Tagline -->
     <div class="footer-container">
       <div class="hamburger" id="hamburger">&#9776;</div>
       <p class="tagline">THE BAMBOO GATEWAY TO THE COAST</p>
     </div>
     
+    <!-- Desktop Navigation Links -->
     <div class="desktop-nav">
       <a href="about.html">ABOUT US</a>
       <a href="contact.html">CONTACT US</a>
     </div>
 
+    <!-- Side Navigation -->
     <nav class="side-nav" id="sideNav">
       <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
 
@@ -116,6 +107,7 @@
         <a href="about.html">ABOUT US</a>
       </div>
 
+      <!-- Footer Note / Copyright -->
       <p class="nav-footer-note">
         © 2025 Webbing Pampanga.<br>
         Sunga, Kylle Raphael Y.<br>
@@ -124,16 +116,18 @@
     </nav>
   </footer>
 
-  <!-- SCRIPT FOR SIDE NAV -->
+  <!-- JavaScript: Side Navigation Toggle -->
   <script>
     const sideNav = document.getElementById('sideNav');
     const hamburger = document.getElementById('hamburger');
     const closeBtn = document.getElementById('closeBtn');
 
+    // Open side nav
     hamburger.addEventListener('click', () => {
       sideNav.style.width = '200px';
     });
 
+    // Close side nav
     closeBtn.addEventListener('click', () => {
       sideNav.style.width = '0';
     });
